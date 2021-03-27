@@ -102,9 +102,9 @@ class scrapper():
 # you won't need to worry with the path_to_driver
 # variable, therefore just leave it as a empty string
 
-challenge_list_url = 'https://www.hackerrank.com/domains/tutorials/10-days-of-javascript?filters%5Bsubdomains%5D%5B%5D=10-days-of-javascript&filters%5Bstatus%5D%5B%5D=solved&badge_type=10-days-of-javascript'
-tutorial_name      = '10-days-of-javascript'
-extension          = 'js'
+challenge_list_url = 'https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=solved&filters%5Bsubdomains%5D%5B%5D=30-days-of-code&badge_type=30-days-of-code'
+tutorial_name      = '30-days-of-code-cpp'
+extension          = 'cpp'
 path_to_driver     = 'chromedriver_linux64/chromedriver'
 
 options = ChromeOptions()
